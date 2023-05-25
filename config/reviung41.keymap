@@ -28,7 +28,7 @@
             >;
         };
 
-        lower_layer {
+        right_layer {
             // ------------------------------------------------------------------------------------
             // |    |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  |      DEL    |
             // |    |  _  |  +  |  {  |  }  | "|" |   | LFT | DWN |  UP | RGT |  `  |       ~     |
@@ -39,11 +39,13 @@
 &kp LA(LC(DELETE))    &kp LG(E)     &kp LA(F4)     &kp LG(R)         &kp LC(N)  &kp LS(LC(ESCAPE))                     &kp CARET               &kp AMPS    &kp PAGE_UP    &kp LPAR             &kp RPAR              &kp DEL
             &trans  &kp AT_SIGN  &kp AMPERSAND  &kp QUESTION   &kp EXCLAMATION         &kp PERCENT            &kp LS(LEFT_ARROW)     &kp LC(LEFT_ARROW)       &kp HOME     &kp END  &kp LC(RIGHT_ARROW)  &kp LS(RIGHT_ARROW)
             &trans    &kp TILDE      &kp UNDER      &kp LALT  &kp LEFT_BRACKET   &kp RIGHT_BRACKET          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PAGE_DOWN  &kp INSERT            &kp PSCRN               &trans
-                                                      &trans         &kp ENTER                      &trans                                       &trans          &mo 3
+                                                      &trans         &kp ENTER                      &trans                                       &trans          &none
             >;
+
+            label = "Right Layer";
         };
 
-        raise_layer {
+        left_layer {
             // ----------------------------------------------------------------------------
             // |    |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | DEL |
             // |    |  -  |  =  |  [  |  ]  |  \  |   | F1  | F2  | F3  | F4  | F5  | F6  |
@@ -54,7 +56,7 @@
        &kp C_MUTE          &tog 2  &kp CAPS  &kp UP_ARROW  &kp KP_MINUS   &kp DOLLAR          &kp KP_MULTIPLY        &kp KP_N7        &kp KP_N8        &kp KP_N9  &kp KP_MINUS     &trans
   &kp C_VOLUME_UP         &kp TAB  &kp LEFT      &kp DOWN     &kp RIGHT     &kp HASH             &kp KP_SLASH        &kp KP_N4        &kp KP_N5  &kp KP_NUMBER_6   &kp KP_PLUS  &kp ENTER
 &kp C_VOLUME_DOWN  &kp KP_NUMLOCK    &kp F2     &kp LC(C)  &kp KP_EQUAL  &kp PERCENT          &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2        &kp KP_N3    &kp KP_DOT     &trans
-                                                    &mo 3        &trans               &trans                            &trans           &trans
+                                                    &none        &trans               &trans                            &trans           &trans
             >;
 
             label = "number pad";
