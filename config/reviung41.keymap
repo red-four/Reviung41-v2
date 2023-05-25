@@ -21,9 +21,9 @@
             //                         | ALT | LWR | SPC | RSE  | ALT |
 
             bindings = <
-  &kp ESCAPE  &kp Q  &kp W  &kp F      &kp P  &kp D                    &kp J            &kp L      &kp U    &kp Y  &kp SEMICOLON        &kp BSPC
-     &kp TAB  &kp A  &kp R  &kp S      &kp T  &kp G                    &kp H            &kp N      &kp E    &kp I          &kp O         &kp SQT
-&kp LEFT_GUI  &kp Z  &kp X  &kp C      &kp V  &kp B                    &kp K            &kp M  &kp COMMA  &kp DOT       &kp FSLH  &lt 4 LEFT_ALT
+  &kp ESCAPE  &kp Q  &kp W  &kp F      &kp P  &kp D                    &kp J            &kp L      &kp U    &kp Y  &kp SEMICOLON      &kp BSPC
+     &kp TAB  &kp A  &kp R  &kp S      &kp T  &kp G                    &kp H            &kp N      &kp E    &kp I          &kp O       &kp SQT
+&kp LEFT_GUI  &kp Z  &kp X  &kp C      &kp V  &kp B                    &kp K            &kp M  &kp COMMA  &kp DOT       &kp FSLH  &kp LEFT_ALT
                             &mo 2  &kp SPACE         &kp LEFT_CONTROL         &kp RIGHT_SHIFT      &mo 1
             >;
         };
