@@ -53,10 +53,10 @@
             //                       |     | ADJ | BKSP |    |     |
 
             bindings = <
-       &kp C_MUTE          &tog 2  &kp CAPS  &kp UP_ARROW  &kp KP_MINUS   &kp DOLLAR          &kp KP_MULTIPLY        &kp KP_N7        &kp KP_N8        &kp KP_N9  &kp KP_MINUS     &trans
-  &kp C_VOLUME_UP         &kp TAB  &kp LEFT      &kp DOWN     &kp RIGHT     &kp HASH             &kp KP_SLASH        &kp KP_N4        &kp KP_N5  &kp KP_NUMBER_6   &kp KP_PLUS  &kp ENTER
-&kp C_VOLUME_DOWN  &kp KP_NUMLOCK    &kp F2     &kp LC(C)  &kp KP_EQUAL  &kp PERCENT          &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2        &kp KP_N3    &kp KP_DOT     &trans
-                                                    &none        &trans               &trans                            &trans           &trans
+       &kp C_MUTE    &kp PAGE_UP  &kp CAPS  &kp UP_ARROW  &kp KP_MINUS   &kp DOLLAR          &kp KP_MULTIPLY        &kp KP_N7        &kp KP_N8        &kp KP_N9  &kp KP_MINUS     &trans
+  &kp C_VOLUME_UP        &kp TAB  &kp LEFT      &kp DOWN     &kp RIGHT     &kp HASH             &kp KP_SLASH        &kp KP_N4        &kp KP_N5  &kp KP_NUMBER_6   &kp KP_PLUS  &kp ENTER
+&kp C_VOLUME_DOWN  &kp PAGE_DOWN    &kp F2        &tog 2  &kp KP_EQUAL  &kp PERCENT          &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2        &kp KP_N3    &kp KP_DOT     &trans
+                                                   &none        &trans               &trans                            &trans           &trans
             >;
 
             label = "number pad";
@@ -70,10 +70,10 @@
             //                                              |     |     |     |     |     |
 
             bindings = <
-&rgb_ug RGB_BRI  &rgb_ug RGB_SAI  &rgb_ug RGB_HUI  &rgb_ug RGB_EFF   &none  &rgb_ug RGB_TOG          &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_CLR
-&rgb_ug RGB_BRD  &rgb_ug RGB_SAD  &rgb_ug RGB_HUD  &rgb_ug RGB_EFR   &none            &none            &bt BT_NXT         &none         &none         &none         &none       &none
-          &none            &none            &none            &none   &none            &none            &sys_reset         &none         &none         &none         &none       &none
-                                                            &trans  &trans                   &tog 3                      &trans        &trans
+&none  &rgb_ug RGB_BRI  &rgb_ug RGB_SAI  &rgb_ug RGB_HUI  &rgb_ug RGB_EFF  &rgb_ug RGB_TOG          &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_CLR
+&none  &rgb_ug RGB_BRD  &rgb_ug RGB_SAD  &rgb_ug RGB_HUD  &rgb_ug RGB_EFR            &none            &bt BT_NXT         &none         &none         &none         &none       &none
+&none            &none            &none            &none            &none            &none            &sys_reset         &none         &none         &none         &none       &none
+                                                  &trans           &trans                   &tog 3                      &trans        &trans
             >;
         };
 
