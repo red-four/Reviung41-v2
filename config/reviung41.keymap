@@ -39,7 +39,7 @@
 &kp LA(LC(DELETE))    &kp LG(E)     &kp LA(F4)     &kp LG(R)         &kp LC(N)  &kp LS(LC(ESCAPE))                     &kp CARET               &kp AMPS    &kp PAGE_UP       &kp LPAR   &kp RPAR    &kp DEL
             &trans  &kp AT_SIGN  &kp AMPERSAND  &kp QUESTION   &kp EXCLAMATION         &kp PERCENT                 &kp BACKSLASH               &kp HOME   &kp LS(LEFT)  &kp LS(RIGHT)    &kp END  &kp TILDE
             &trans    &kp TILDE      &kp UNDER      &kp LALT  &kp LEFT_BRACKET   &kp RIGHT_BRACKET          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PAGE_DOWN     &kp INSERT  &kp PSCRN     &trans
-                                                      &trans            &trans                      &trans                                       &trans          &mo 3
+                                                      &trans         &kp ENTER                      &trans                                       &trans          &mo 3
             >;
         };
 
@@ -67,7 +67,7 @@
 
             bindings = <
 &rgb_ug RGB_BRI  &rgb_ug RGB_SAI  &rgb_ug RGB_HUI  &rgb_ug RGB_EFF   &none  &rgb_ug RGB_TOG          &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_CLR
-&rgb_ug RGB_BRD  &rgb_ug RGB_SAD  &rgb_ug RGB_HUD  &rgb_ug RGB_EFR   &none            &none            &bt BT_NXT         &none         &none         &none         &none       &none
+&rgb_ug RGB_BRD  &rgb_ug RGB_SAD  &rgb_ug RGB_HUD  &rgb_ug RGB_EFR   &none            &none                 &none         &none         &none         &none         &none       &none
           &none            &none            &none            &none   &none            &none            &sys_reset         &none         &none         &none         &none       &none
                                                             &trans  &trans                   &tog 3                      &trans        &trans
             >;
