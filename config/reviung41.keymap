@@ -51,10 +51,10 @@
             //                       |     | ADJ | BKSP |    |     |
 
             bindings = <
-       &kp C_MUTE     &kp F5   &kp CAPS  &kp UP_ARROW  &kp KP_MINUS   &kp DOLLAR          &kp KP_MULTIPLY  &kp N7        &kp N8        &kp N9  &kp KP_MINUS      &trans
-  &kp C_VOLUME_UP  &kp MINUS  &kp EQUAL      &kp LBKT      &kp RBKT     &kp HASH             &kp KP_SLASH  &kp N4        &kp N5  &kp NUMBER_6      &kp PLUS  &kp DELETE
-&kp C_VOLUME_DOWN    &kp ESC     &kp F2     &kp LC(C)  &kp KP_EQUAL  &kp PERCENT                   &kp N0  &kp N1  &kp NUMBER_2        &kp N3    &kp PERIOD      &trans
-                                                &mo 3        &trans               &trans                   &trans        &trans
+       &kp C_MUTE     &kp F5  &kp CAPS  &kp UP_ARROW  &kp KP_MINUS   &kp DOLLAR          &kp KP_MULTIPLY  &kp N7        &kp N8        &kp N9  &kp KP_MINUS      &trans
+  &kp C_VOLUME_UP  &kp MINUS  &kp LEFT      &kp DOWN     &kp RIGHT     &kp HASH             &kp KP_SLASH  &kp N4        &kp N5  &kp NUMBER_6      &kp PLUS  &kp DELETE
+&kp C_VOLUME_DOWN    &kp ESC    &kp F2     &kp LC(C)  &kp KP_EQUAL  &kp PERCENT                   &kp N0  &kp N1  &kp NUMBER_2        &kp N3    &kp PERIOD      &trans
+                                               &mo 3        &trans               &trans                   &trans        &trans
             >;
         };
 
