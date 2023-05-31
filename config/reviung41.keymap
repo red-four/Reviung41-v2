@@ -24,7 +24,7 @@
   &kp ESCAPE  &kp Q  &kp W  &kp F        &kp P  &kp D                    &kp J            &kp L      &kp U    &kp Y  &kp SEMICOLON      &kp BSPC
    &lt 3 TAB  &kp A  &kp R  &kp S        &kp T  &kp G                    &kp H            &kp N      &kp E    &kp I          &kp O       &kp SQT
 &kp LEFT_GUI  &kp Z  &kp X  &kp C        &kp V  &kp B                    &kp K            &kp M  &kp COMMA  &kp DOT       &kp FSLH  &kp LEFT_ALT
-                            &mo 4  &lt 2 SPACE         &kp LEFT_CONTROL         &kp RIGHT_SHIFT      &mo 1
+                            &mo 2  &lt 1 SPACE         &kp LEFT_CONTROL         &kp RIGHT_SHIFT      &mo 4
             >;
         };
 
@@ -39,7 +39,7 @@
 &kp LA(LC(DELETE))    &kp LG(E)     &kp LA(F4)      &kp LG(R)         &kp LC(N)  &kp LS(LC(ESCAPE))                     &kp CARET               &kp AMPS    &kp PAGE_UP    &kp LPAR             &kp RPAR              &kp DEL
             &trans  &kp AT_SIGN  &kp AMPERSAND   &kp QUESTION   &kp EXCLAMATION         &kp PERCENT            &kp LS(LEFT_ARROW)     &kp LC(LEFT_ARROW)       &kp HOME     &kp END  &kp LC(RIGHT_ARROW)  &kp LS(RIGHT_ARROW)
             &trans    &kp TILDE      &kp UNDER  &kp BACKSLASH  &kp LEFT_BRACKET   &kp RIGHT_BRACKET          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PAGE_DOWN  &kp INSERT            &kp PSCRN               &trans
-                                                       &trans         &kp ENTER                      &trans                                       &trans         &trans
+                                                       &trans            &trans                      &trans                                    &kp ENTER         &trans
             >;
 
             label = "Right Layer";
